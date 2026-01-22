@@ -242,7 +242,7 @@ export async function handleListDocuments(args: any) {
         summary: doc.summary,
         reading_progress: doc.reading_progress
       }))
-    }, null, 2);
+    });
   }
   
   let allMessages = response.messages || [];

@@ -30,7 +30,7 @@ export async function handleListHighlights(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(minimal, null, 2),
+        text: JSON.stringify(minimal),
       },
     ],
   };
@@ -45,7 +45,7 @@ export async function handleCreateHighlight(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(response.data, null, 2),
+        text: JSON.stringify(response.data),
       },
     ],
   };
@@ -67,7 +67,7 @@ export async function handleExportHighlights(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(response.data, null, 2),
+        text: JSON.stringify(response.data),
       },
     ],
   };
@@ -94,7 +94,7 @@ export async function handleGetDailyReview(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(minimal, null, 2),
+        text: JSON.stringify(minimal),
       },
     ],
   };
@@ -132,7 +132,7 @@ export async function handleListBooks(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(minimal, null, 2),
+        text: JSON.stringify(minimal),
       },
     ],
   };
@@ -154,7 +154,7 @@ export async function handleGetBookHighlights(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(minimal, null, 2),
+        text: JSON.stringify(minimal),
       },
     ],
   };
@@ -185,7 +185,7 @@ export async function handleSearchHighlights(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(minimal, null, 2),
+        text: JSON.stringify(minimal),
       },
     ],
   };
@@ -222,7 +222,7 @@ export async function handleEnhancedTopicSearch(args: any) {
     content: [
       {
         type: 'text',
-        text: JSON.stringify(minimal, null, 2),
+        text: JSON.stringify(minimal),
       },
     ],
   };
