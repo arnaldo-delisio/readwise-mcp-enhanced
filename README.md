@@ -1,3 +1,14 @@
+---
+status: published
+category: mcp-server
+author: arnaldo-delisio
+published_npm: true
+npm_package: readwise-mcp-enhanced
+published_directories: []
+production_url: null
+last_active: 2026-01-26
+---
+
 # Readwise MCP Enhanced
 
 [![npm version](https://badge.fury.io/js/readwise-mcp-enhanced.svg)](https://badge.fury.io/js/readwise-mcp-enhanced)
